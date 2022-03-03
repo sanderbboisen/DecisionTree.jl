@@ -1,9 +1,9 @@
 import ScikitLearnBase: BaseClassifier, BaseRegressor, predict, predict_proba,
                         fit!, get_classes, @declare_hyperparameters
 
+using Random
 ################################################################################
 # Classifier
-
 """
     DecisionTreeClassifier(; pruning_purity_threshold=0.0,
                            max_depth::Int=-1,

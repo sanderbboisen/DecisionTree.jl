@@ -1,4 +1,5 @@
 include("tree.jl")
+using .util
 
 function _convert(node::treeregressor.NodeMeta{S}, labels::Array{T}) where {S, T <: Float64}
     if node.is_leaf

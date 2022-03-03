@@ -5,7 +5,7 @@
 # written by Poom Chiarawongse <eight1911@gmail.com>
 
 module treeregressor
-    include("../util.jl")
+    using ..util
 
     import Random
     export fit
